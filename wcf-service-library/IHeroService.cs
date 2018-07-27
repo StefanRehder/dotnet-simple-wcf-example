@@ -30,7 +30,7 @@ namespace HeroServiceContracts
         [WebInvoke(Method = "PUT",
           ResponseFormat = WebMessageFormat.Json,
           BodyStyle = WebMessageBodyStyle.Bare,
-          UriTemplate = "hero/")]
+          UriTemplate = "hero")]
         void PutHero(Hero hero);
     }
 
